@@ -12,4 +12,5 @@ df1.loc[df1['Review'] == 'Superb 9.0', 'Review'] = "Superb"
 df1.loc[df1['Review'] == 'Superb ', 'Review'] = "Superb"
 df1.loc[df1['Review'] == 'Exceptional 10', 'Review'] = "Exceptional"
 df1.loc[df1['Review'] == 'Exceptional ', 'Review'] = "Exceptional"
-print(df1['Review'].value_counts())
+#print(df1['Review'].value_counts())
+print(df1['Total_Review'].unique())
