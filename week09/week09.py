@@ -1,6 +1,6 @@
 import pandas as pd
-import plt
 import seaborn as sns
+from matplotlib import pyplot as plt
 
 df1 = pd.read_csv('weight_height.csv')
 # print(df1.info())
@@ -14,3 +14,4 @@ print(df2.describe())
 sns.scatterplot(x='Weight', y='Height', data=df1)
 plt.show()
 sns.scatterplot(x='Weight', y='Height', data=df2)
+plt.show()
